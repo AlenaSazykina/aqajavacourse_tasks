@@ -27,24 +27,27 @@ package org.example.javacircul;
 Ответом на задание является измененный метод.
 Здесь еще подумать
  */
- */
 public class Task10 {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         guessGame();
     }
+
     public static void guessGame() {
         int randomNum = 3;
-        while (randomNum != 3){
-            int count = 0;
-            java.util.Scanner sc = new java.util.Scanner(System.in);
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        int count = 0;
+        int x;
+
+        do {
             System.out.println("What number am I thinking (0 to 9)? :");
-            int x = sc.nextInt();
+            x = sc.nextInt();
+            count++;
             if (x != randomNum) {
-                count++;
                 System.out.println("No, try again");
-            } else {
-                System.out.println("Yes, it`s " + randomNum);
             }
-        System.out.println(count);
+        } while (x != randomNum);
+
+        System.out.println("Yes, it`s " + randomNum);
+        System.out.println("Number of attempts: " + count);
     }
 }
