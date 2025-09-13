@@ -1,7 +1,5 @@
 package org.example.javaif;
 
-import com.sun.jdi.PathSearchingVirtualMachine;
-
 /*
 Практика Java. Условия #5
 

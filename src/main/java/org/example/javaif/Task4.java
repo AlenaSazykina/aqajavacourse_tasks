@@ -1,7 +1,5 @@
 package org.example.javaif;
 
-import static java.lang.String.*;
-
 /*
 Практика Java. Условия #4
 

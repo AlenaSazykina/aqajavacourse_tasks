@@ -15,4 +15,17 @@ x=2
 
  */
 public class Task2 {
+    public static void main(String[] arg){
+        int arr[] ={1,2,3,4,2,2,5};
+        System.out.println(findLast(arr,11));
+    }
+    public static int findLast(int [] arr, int x) {
+        int length = arr.length;
+        for (int i = length-1;i <= length && i > -1; i--) {
+            if (arr[i] == x) {
+                return i; // возвращаем последний найденный индекс
+            }
+        }
+        return -1; // если элемент не найден
+    }
 }
