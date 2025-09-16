@@ -14,4 +14,5 @@ arr=[1,-2,-7,4,2,2,5]
 
  */
 public class Task4 {
+    
 }
