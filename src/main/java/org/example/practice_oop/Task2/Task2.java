@@ -49,8 +49,6 @@ public class Task2 {
         System.out.println(line3);
 
         // Изменяем координаты точек начала и конца Линии 3
-        // Поскольку у Линии 3 start и end — это точки Line1.end и Line2.start (одни и те же объекты),
-        // изменения будут отражены во всех трех линиях.
 
         line3.getStart().setX(7);
         line3.getStart().setY(7);
