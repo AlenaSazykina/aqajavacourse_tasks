@@ -1,6 +1,6 @@
-package org.example.practice_oop.Task2;
-import org.example.practice_oop.Task2.Line;
-import org.example.practice_oop.Task2.Point;
+package org.example.practice_oop.InitObject.Task2;
+import org.example.practice_oop.InitObject.Task2.Line;
+import org.example.practice_oop.InitObject.Task2.Point;
 
 /*
  Практика ООП. Объекты и классы #2. Линия
