@@ -10,5 +10,7 @@ public class Task1 {
         Fraction result = f1.sum(f2).sum(f3).minus(5);
 
         System.out.println("Result: " + result); // вывод: результат
+
+        
     }
 }
