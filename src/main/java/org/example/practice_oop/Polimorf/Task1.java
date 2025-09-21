@@ -24,11 +24,11 @@ class Point {
         this.y = y;
     }
 
-    // Геттеры
+    // Можно добавить геттеры для удобства
     public int getX() { return x; }
     public int getY() { return y; }
 
-    // Переопределим toString 
+    // Переопределим toString для удобства вывода
     @Override
     public String toString() {
         return "Point{x=" + x + ", y=" + y + "}";

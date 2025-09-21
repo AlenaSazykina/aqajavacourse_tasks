@@ -1,4 +1,4 @@
-package org.example.practice_oop.InitObject.Task2;
+package org.example.practice_oop.Task2;
 
 public class Line {
     private Point start;

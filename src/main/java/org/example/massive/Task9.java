@@ -24,7 +24,7 @@ public static void main(String[] args) {
 }
 
 public static int[] findAll(int[] arr, int x) {
-    // Количество вхождений x
+    // Rоличество вхождений x
     int count = 0;
     for (int value : arr) {
         if (value == x) {
