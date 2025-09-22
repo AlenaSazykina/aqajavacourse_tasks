@@ -31,8 +31,15 @@
         <version>4.13.2</version>
         <scope>test</scope>
     </dependency>
-
-    </dependencies>
+    <!-- WebDriverManager для автоматического управления драйверами 
+-->
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.3.2</version>
+</dependency>
+</dependencies>
 
     <parent>
     <groupId>at.stderr</groupId>
@@ -72,6 +79,13 @@
           <mainClass>org.example.Main</mainClass>
         </configuration>
       </plugin>
+      <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+            </plugin>
+        </plugins>
     </plugins>
   </build>
 
