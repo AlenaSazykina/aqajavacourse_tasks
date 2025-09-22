@@ -20,7 +20,6 @@ buildNumber.properties
 mind.md
 .idea
 .mvn
-test/
 .vscode/settings.json
 pom.xml
 story.md
