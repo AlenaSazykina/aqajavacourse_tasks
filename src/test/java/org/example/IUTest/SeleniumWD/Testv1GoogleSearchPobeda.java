@@ -75,6 +75,8 @@ public class Testv1GoogleSearchPobeda {
             // Нажать Enter
             searchBox.submit();
             
+            Thread.sleep(6000);
+            
             // Дождаться результатов поиска
             wait.until(ExpectedConditions.presenceOfElementLocated(By.id("search")));
             

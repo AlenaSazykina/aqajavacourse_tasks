@@ -22,6 +22,7 @@ package org.example.practice_oop.InitObject.Task3;
  */
 
 import java.util.List;
+
 // Тестовый класс
 public class PolyLineTest {
     public static void main(String[] args) {
