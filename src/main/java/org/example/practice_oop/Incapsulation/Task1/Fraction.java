@@ -1,4 +1,4 @@
-package org.example.practice_oop.Incapsulation;
+package org.example.practice_oop.Incapsulation.Task1;
 /*
  Практика ООП. Инкапсуляция #1. Дробь
 Создайте класс Дробь (Fraction) со следующими особенностями:

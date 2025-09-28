@@ -1,5 +1,5 @@
-package org.example.practice_oop.Incapsulation;
-import org.example.practice_oop.Incapsulation.Fraction;
+package org.example.practice_oop.Incapsulation.Task1;
+import org.example.practice_oop.Incapsulation.Task1.Fraction;
 
 public class Task1 {
     public static void main(String[] args) {
