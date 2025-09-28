@@ -16,6 +16,24 @@ public static void reverse(int[] intArray) {
 package org.example.CollectionFramework10;
 
 
-public class ArrayList {
-    
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListTask3 {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>(List.of(1, 2, 3, 4, 5));
+        System.out.println("До: " + list);
+        reverse(list);
+        System.out.println("После: " + list);
+    }
+
+    public static void reverse(List<Integer> list) {
+        int n = list.size() - 1;
+        for (int i = 0; i < list.size() / 2; i++) {
+            int temp = list.get(i);
+            list.set(i, list.get(n - i));
+            list.set(n - i, temp);
+        }
+    }
 }
+
