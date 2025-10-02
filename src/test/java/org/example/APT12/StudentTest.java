@@ -4,6 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.example.APT12.StubGradeChecker;
+import org.example.APT12.Student;
+import org.example.APT12.GradeChecker;
+
 public class StudentTest {
 
     @Test
