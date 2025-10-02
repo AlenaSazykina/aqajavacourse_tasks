@@ -7,7 +7,7 @@ public class Calculator {
         // короткие имена методов
         int base = parseInt(X);
         int exponent = parseInt(Y);
-        return Math.pow(base, exponent);
+        return pow(base, exponent);
     }
 
     public static void main(String[] args) {
